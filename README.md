@@ -3,7 +3,7 @@
 
 ## Dataset Overview  
 
-This project utilizes the following two main datasets:  
+This project utilizes the following two main datasets. The code corresponds to the research work published in *Pseudo-label attention-based multiple instance learning for whole slide image classification*:  
 
 1. **Camelyon16 Dataset**  
    - **Source**: Camelyon16 Challenge Data  
