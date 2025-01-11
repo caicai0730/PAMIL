@@ -1,28 +1,23 @@
-# PAMIL
-# 项目数据集说明
+# PAMIL  
+# Project Dataset Description  
 
-## 数据集介绍
+## Dataset Overview  
 
-本项目使用了以下两个主要数据集：
+This project utilizes the following two main datasets:  
 
-1. **Camelyon16 数据集**  
-   - **来源**：Camelyon16 大赛数据  
-   - **用途**：用于训练和测试病理图像检测模型，主要包含癌症检测相关的组织切片图片。  
-   - **数据格式**：通常以 `.tif` 或 `.svs` 格式存储的高分辨率显微镜图像。
+1. **Camelyon16 Dataset**  
+   - **Source**: Camelyon16 Challenge Data  
+   - **Purpose**: Used for training and testing pathology image detection models, primarily consisting of tissue slide images related to cancer detection.  
+   - **Data Format**: High-resolution microscopic images stored in `.tif` or `.svs` formats.  
 
-2. **TCGA 数据集**  
-   - **来源**：癌症基因组图谱（The Cancer Genome Atlas, TCGA）  
-   - **用途**：用于癌症相关的多模态数据分析和模型训练，涵盖多种癌症类型的组织样本和相关临床数据。  
-   - **数据内容**：该数据集通常包含组织切片图像、基因表达数据、患者信息等多模态数据。
-
-
----
-
-## 数据集使用说明
-
-- Camelyon16 数据集适用于癌症检测任务，重点在病理图像分类与区域检测。  
-- TCGA 数据集适用于癌症类型的分类和生存预测等任务，尤其适合多模态分析。
+2. **TCGA Dataset**  
+   - **Source**: The Cancer Genome Atlas (TCGA)  
+   - **Purpose**: Used for cancer-related multimodal data analysis and model training, covering tissue samples and clinical data for various cancer types.  
+   - **Data Content**: This dataset typically includes tissue slide images, gene expression data, and patient information for multimodal studies.  
 
 ---
 
-如需更多数据集详细说明，请参考相关官方页面或文档。
+## Dataset Usage Instructions  
+
+- The Camelyon16 dataset is suitable for cancer detection tasks, focusing on pathology image classification and region detection.  
+- The TCGA dataset is designed for cancer type classification and survival prediction tasks, making it ideal for multimodal analysis.  
